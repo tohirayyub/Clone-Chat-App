@@ -1,0 +1,19 @@
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 8px 15px 0 15px;
+    border-bottom: 1px solid gray;
+}
+.header__top img{
+    border-radius: 12px;
+}
+.header__flexed{
+    display: flex;
+    gap: 10px;
+}
+.header__titles{
+    display: flex;
+    flex-direction: column;
+}

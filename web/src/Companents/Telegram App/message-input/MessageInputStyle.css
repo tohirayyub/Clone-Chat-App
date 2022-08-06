@@ -1,0 +1,33 @@
+.input__message{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    border-top: 1px solid gray;
+}
+.input__message input{
+    background-color: #2f3142;
+    border: 1px solid rgb(77, 76, 76);
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.input__message input:focus {
+    outline: none;
+}
+.btn__sender{
+    position: absolute;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 118, 249);
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn__sender:hover{
+    cursor: pointer;
+}

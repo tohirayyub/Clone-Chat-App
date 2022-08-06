@@ -1,0 +1,16 @@
+.main__chat{
+    height: 75vh;
+    overflow-y: scroll;
+    font-size: 14px;
+    
+}
+.main__chat ul{
+    margin: 0;
+}
+.main__chat li{
+    list-style: none;
+    width: fit-content;
+    padding: 8px 10px;
+    margin: 10px 10px 10px 20px;
+
+}

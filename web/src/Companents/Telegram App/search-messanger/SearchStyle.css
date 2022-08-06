@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.top__companent {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* justify-content: space-between; */
+  margin: 10px;
+}
+.input__search {
+  padding: 7px 7px 7px 30px;
+  background-color: #2f3142;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+}
+.name__app {
+    font-family: 'Fredoka One', cursive;
+}
+.burger {
+  cursor: pointer;
+  font-size: 20px;
+}
